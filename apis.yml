@@ -1,7 +1,24 @@
 aid: amixrio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amixrio.png
 name: Amixr.io
-description: Amixr.io is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Amixr was an incident-response and on-call management startup that provided alerting,
+  escalation, and on-call scheduling for engineering and DevOps teams, integrating with monitoring
+  stacks such as Grafana and Prometheus. Backed by 500 Global, the company was acquired by Grafana
+  Labs in December 2021 and its product was folded into Grafana OnCall (now part of Grafana IRM). The
+  standalone amixr.io product and developer surface have been retired; the domain no longer serves an
+  active website, developer portal, or API. This profile is retained in the API Evangelist network as
+  a historical company record following enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/amixrio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,22 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-note: Acquired by Grafana Labs (Dec 2021); product became Grafana OnCall. amixr.io domain
+  registered but not serving (HTTPS connection refused, verified 2026-07-17).
+x-successor: Grafana OnCall
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Incident Management
+- On-Call
+- Alerting
+- Monitoring
+- Observability
+- DevOps
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,8 @@ maintainers:
 common:
 - type: Website
   url: https://amixr.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
