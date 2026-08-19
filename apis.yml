@@ -30,7 +30,7 @@ x-status: acquired
 x-status-note: Acquired by Grafana Labs (Dec 2021); product became Grafana OnCall. amixr.io domain
   registered but not serving (HTTPS connection refused, verified 2026-07-17).
 x-successor: Grafana OnCall
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
